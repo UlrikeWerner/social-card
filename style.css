@@ -6,12 +6,20 @@ body {
   background-color: lightgrey;
 }
 
+main {
+  display: flex;
+  gap: 2em;
+}
+
 section {
   background-color: white;
   border-radius: 5px;
-  padding: 10px 25px;
+  /*padding: 10px 25px;*/
   width: 800px;
-  margin-left: 25px;
+  /*margin-left: 25px;*/
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 
 .logo {
